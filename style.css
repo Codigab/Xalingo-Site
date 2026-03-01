@@ -18,7 +18,7 @@ p {
     color: red;
 }
 
-/* Apenas input type="text" com borda azul */
+/* Apenas input type="text" com borda azul*/
 input[type="text"] {
     border: 2px solid blue;
     
