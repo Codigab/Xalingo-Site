@@ -1,25 +1,44 @@
-/* Todos os p com fonte arial */
+/* 1. Todos os <p> com fonte Arial */
 p {
     font-family: Arial, sans-serif;
 }
 
-/* título principal azul */
+/* 2. Título principal azul */
 #titulo-principal {
     color: blue;
 }
 
-/* Fundo amarelo para quem tem classe destaque */
+/* 3. Fundo amarelo para quem tem classe destaque */
 .destaque {
     background-color: yellow;
 }
 
-/* Apenas o Item 2 vermelho */
+/* 4. Apenas o Item 2 vermelho */
 .importante {
     color: red;
 }
 
-/* Apenas input type="text" com borda azul*/
+/* 5. Apenas input type="text" com borda azul */
 input[type="text"] {
     border: 2px solid blue;
-    
+}
+
+/* 6. Ao passar o mouse no botão, mudar a cor de fundo */
+button:hover {
+    background-color: lightgray;
+}
+
+/* 7. Apenas o <p> dentro da .container que seja filho direto da primeira div */
+.container > div > p {
+    color: green;
+}
+
+/* 8. Aumentar o tamanho da primeira letra de todos os parágrafos */
+p::first-letter {
+    font-size: 200%;
+}
+
+/* 9. Apenas o primeiro <li> em negrito */
+#lista li:first-child {
+    font-weight: bold;
 }
