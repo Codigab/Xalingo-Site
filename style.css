@@ -1,0 +1,24 @@
+/* Todos os p com fonte arial */
+p {
+    font-family: Arial, sans-serif;
+}
+
+/* título principal azul */
+#titulo-principal {
+    color: blue;
+}
+
+/* Fundo amarelo para quem tem classe destaque */
+.destaque {
+    background-color: yellow;
+}
+
+/* Apenas o Item 2 vermelho */
+.importante {
+    color: red;
+}
+
+/* Apenas input type="text" com borda azul */
+input[type="text"] {
+    border: 2px solid blue;
+}
