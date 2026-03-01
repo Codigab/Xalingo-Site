@@ -21,4 +21,5 @@ p {
 /* Apenas input type="text" com borda azul */
 input[type="text"] {
     border: 2px solid blue;
+    
 }
