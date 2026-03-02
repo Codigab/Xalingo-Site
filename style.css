@@ -23,22 +23,3 @@ input[type="text"] {
     border: 2px solid blue;
 }
 
-/* 6. Ao passar o mouse no botão, mudar a cor de fundo */
-button:hover {
-    background-color: lightgray;
-}
-
-/* 7. Apenas o <p> dentro da .container que seja filho direto da primeira div */
-.container > div > p {
-    color: green;
-}
-
-/* 8. Aumentar o tamanho da primeira letra de todos os parágrafos */
-p::first-letter {
-    font-size: 200%;
-}
-
-/* 9. Apenas o primeiro <li> em negrito */
-#lista li:first-child {
-    font-weight: bold;
-}
